@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dynamic Parcel Management</title>
+    <link rel="stylesheet" href="./parcel.css" />
+  </head>
+
+  <body>
+    <div class="group-header">
+      <div class="city" style="background-color: deeppink">Mumbai</div>
+      <div class="city" style="background-color: yellow">Delhi</div>
+      <div class="city" style="background-color: steelblue">Kolkata</div>
+    </div>
+
+    <div class="parcel">
+      <div class="mumparcel"></div>
+      <div class="delhparcel"></div>
+      <div class="kolparcel"></div>
+      <!-- <div class="parcelno">1</div>
+    <div class="parcelno">2</div>
+    <div class="parcelno">3</div>
+    <div class="parcelno">4</div>
+    <div class="parcelno">5</div> -->
+    </div>
+
+    <div class="text">
+      <h2>Selected Parcel:</h2>
+      <h2 id="selecteditem" style="margin-left: 20px"></h2>
+    </div>
+
+    <div class="input">
+      <table cellpadding="20">
+        <tr>
+          <td>
+            <label for="">Enter Name:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="parcelname"
+              value=""
+              style="padding: 5px; font-size: 13px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Select Location Group:</label>
+          </td>
+          <td>
+            <select name="" id="">
+              <option value="Mumbai">Mumbai</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Kolkata">Kolkata</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+
+      <button
+        style="
+          margin-left: 200px;
+          margin-top: 10px;
+          height: 30px;
+          width: 70px;
+          cursor: pointer;
+        "
+        id="add"
+      >
+        Add
+      </button>
+    </div>
+
+    <div class="scale">
+      <table cellpadding="10">
+        <tr>
+          <td>Mumbai</td>
+          <td><div id="pink"></div></td>
+        </tr>
+        <tr>
+          <td>Kolkata</td>
+          <td><div id="blue"></div></td>
+        </tr>
+        <tr>
+          <td>Delhi</td>
+          <td><div id="yellow"></div></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="buttons">
+      <button class="btn" id="addafter">Add After</button>
+      <button class="btn" id="addbefore">Add Before</button>
+      <button class="btn" id="replace">Replace</button>
+      <button class="btn" id="remove">Delete</button>
+      <button class="btn">Refresh</button>
+      <button class="btn">Show Final</button>
+    </div>
+
+    <script src="./parcel.js"></script>
+  </body>
+</html>

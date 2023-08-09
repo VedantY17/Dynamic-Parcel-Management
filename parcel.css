@@ -1,0 +1,132 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.city {
+  border: 1px solid black;
+  height: 30px;
+  width: 500px;
+}
+
+.parcel {
+  /* border: 3px solid white; */
+  height: 50px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.mumparcel {
+  display: flex;
+  border: 2px solid deeppink;
+  height: 50px;
+  width: 33%;
+}
+
+.delhparcel {
+  display: flex;
+  border: 2px solid yellow;
+  height: 50px;
+  width: 33%;
+}
+
+.kolparcel {
+  display: flex;
+  border: 2px solid steelblue;
+  height: 50px;
+  width: 34%;
+}
+
+.mum {
+  border: 2px solid black;
+  height: 50px;
+  width: 100px;
+  background-color: deeppink;
+  color: black;
+}
+
+.delh {
+  border: 2px solid black;
+  height: 50px;
+  width: 100px;
+  background-color: yellow;
+  color: black;
+}
+
+.kol {
+  border: 2px solid black;
+  height: 50px;
+  width: 100px;
+  background-color: steelblue;
+  color: black;
+}
+
+.text {
+  margin-top: 50px;
+  display: flex;
+}
+
+.input {
+  border: 2px solid white;
+  width: 500px;
+  height: 200px;
+}
+
+select {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.scale {
+  float: right;
+  margin-right: 50px;
+  margin-top: -100px;
+}
+
+#pink {
+  border: 1px solid deeppink;
+  height: 30px;
+  width: 30px;
+  background-color: deeppink;
+}
+
+#blue {
+  border: 1px solid steelblue;
+  height: 30px;
+  width: 30px;
+  background-color: steelblue;
+}
+
+#yellow {
+  border: 1px solid yellow;
+  height: 30px;
+  width: 30px;
+  background-color: yellow;
+}
+
+.buttons {
+  display: none;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  margin-right: 70px;
+  cursor: pointer;
+}
